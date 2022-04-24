@@ -6,7 +6,7 @@
 
 package br.com.fiap.healthtrack;
 
-public class CadastroUsuario  {
+public abstract class CadastroUsuario  {
 	
 		private String nomeUsuario;
 		private String email;
