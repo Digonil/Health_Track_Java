@@ -12,6 +12,8 @@ public class TelefoneUsuario {
 /**
  * Atributos da classe TelefoneUsuario.
  */
+		private int cdContatoTel;
+		private int cdUsuario;
 		private int numTelefone;
 		private String tipoContato;
 		

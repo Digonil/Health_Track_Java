@@ -15,8 +15,11 @@ public class DadosFisicos {
 	 * * Atributos da classe DadosFisicos.
 	 * Utilizado composição de classes para os atributos Imc e Atividades.
 	*/	
-	
+	private int cdEntradaPeso;
+	private int cdUsuario;
 	private String dataPesagem;
+	private int peso;
+	private int altura;
 	private Imc imc = new Imc();
 	private Atividades atividades = new Atividades();
 	

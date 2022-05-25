@@ -7,7 +7,9 @@
 package br.com.fiap.healthtrack;
 
 public abstract class CadastroUsuario  {
-	
+		
+		private int cdUsuario;
+		private int cdEndereco;
 		private String nomeUsuario;
 		private String email;
 		private String senha;
@@ -43,9 +45,6 @@ public abstract class CadastroUsuario  {
 		public void setSenha(String senha) {
 			this.senha = senha;
 		}
-	
-	
-	
 	}
 		
 

@@ -12,8 +12,11 @@ public class Amigos {
 	/**
 	 * * Atributos da classe Amigos.
 	*/	
-	String nomeContato;
-	String email;
+	
+	private int cdContato;
+	private int cdUsuario;
+	private String nomeContato;
+	private String email;
 	
 	
 	/**
